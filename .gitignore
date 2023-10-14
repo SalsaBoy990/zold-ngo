@@ -17,3 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/resources/views/public/startbootstrap-modern-business-gh-pages.zip
+/volt-laravel-admin-dashboard-1.0.1.zip

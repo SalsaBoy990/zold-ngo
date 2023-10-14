@@ -17,11 +17,12 @@ class ConfirmablePasswordController extends Controller
      */
     public function show(): View
     {
-        return view('auth.confirm-password');
+        return view('auth.pages.confirm-password');
     }
 
     /**
      * Confirm the user's password.
+     * @throws ValidationException
      */
     public function store(Request $request): RedirectResponse
     {
